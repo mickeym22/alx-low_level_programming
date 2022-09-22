@@ -4,7 +4,6 @@
  * @dest: input parameter string
  * @src: input parameter string
  * @n: times to iterations
- *
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
