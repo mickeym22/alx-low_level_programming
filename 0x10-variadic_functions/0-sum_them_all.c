@@ -17,7 +17,6 @@ int sum = 0;
 if (n == 0)
 return (0);
 
-
 va_start(ap, n);
 for (; i < n; i++)
 sum += va_arg(ap, int);
