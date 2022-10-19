@@ -16,6 +16,7 @@ int n1;
 int n2;
 int count;
 
+
 count = 0;
 if (s1 == NULL)
 s1 = "";
