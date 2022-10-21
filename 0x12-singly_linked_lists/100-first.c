@@ -2,6 +2,7 @@
 /**
  * before - print before main.
  */
+
 void before(void) __attribute__ ((constructor));
 void before(void)
 {
