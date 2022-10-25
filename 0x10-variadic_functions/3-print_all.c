@@ -34,6 +34,7 @@ void print_string(va_list s)
 {
 char *str = va_arg(s, char *);
 
+
 if (str != NULL)
 {
 printf("%s", str);
