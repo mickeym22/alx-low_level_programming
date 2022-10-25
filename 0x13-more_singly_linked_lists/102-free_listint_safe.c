@@ -22,6 +22,7 @@ return (0);
 tortoise = head->next;
 hare = (head->next)->next;
 
+
 while (hare)
 {
 if (tortoise == hare)
