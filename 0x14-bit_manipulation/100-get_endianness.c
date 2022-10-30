@@ -7,6 +7,7 @@
  * Return: 1 for little and 0 for big
  */
 
+
 int get_endianness(void)
 {
 unsigned int i;
