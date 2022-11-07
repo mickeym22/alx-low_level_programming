@@ -36,6 +36,7 @@ read_check = read(file, buffer, letters); /*read file*/
 if (read_check == -1) /*check if read failed*/
 return (0);
 
+
 wcount = write(STDOUT_FILENO, buffer, read_check); /*write to POSIX*/
 if (wcount == -1 || read_check != wcount) /*check if write failed*/
 return (0);
